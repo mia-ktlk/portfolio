@@ -10,6 +10,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+	
+
+}
+
+	@media only screen and (max-width: 767px) {
+  .aboutpara {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url("../img/mobile/aboutme.jpg");
+  }
 }
 
 
@@ -25,6 +35,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+	}
+
+		@media only screen and (max-width: 767px) {
+  .portfoliopara {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url("../img/mobile/myportfolio.jpg");
+  }
 }
 
 .contactpara {
@@ -39,7 +57,28 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+	
 }
+
+	
+		@media only screen and (max-width: 767px) {
+  .contactpara {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url("../img/mobile/contactme.jpg");
+  }
+}
+
+
+	
+		@media only screen and (max-width: 767px) {
+  header.masthead {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url("../img/mobile/bg.jpg");
+  }
+}
+
 
 
 
