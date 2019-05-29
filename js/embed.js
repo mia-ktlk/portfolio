@@ -10,7 +10,7 @@
                         h = b.createElement("div");
                     h.style.maxWidth = "1300px", h.style.minWidth = "250px", h.style.position = "relative", h.style.paddingBottom = "66.6667%", h.style.height = 0, h.style.overflow = "hidden", h.style.boxShadow = "0px 0px 12px 0px rgba(0,0,0,0.15)";
                     var i = b.createElement("iframe");
-                    i.style.width = "100%", i.style.height = "80%", i.style.position = "absolute", i.style.top = 0, i.style.left = 0, i.style.border = "1px solid #ddd", i.style.borderRadius = 0, i.src = f.href + "embed.html", h.appendChild(i), f && g && g.replaceChild(h, f)
+                    i.style.width = "100%", i.style.height = "100%", i.style.position = "absolute", i.style.top = 0, i.style.left = 0, i.style.border = "1px solid #ddd", i.style.borderRadius = 0, i.src = f.href + "embed.html", h.appendChild(i), f && g && g.replaceChild(h, f)
                 }
             }
         };
